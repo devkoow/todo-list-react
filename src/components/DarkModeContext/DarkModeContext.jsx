@@ -1,5 +1,4 @@
 import { createContext, useContext, useEffect, useState } from 'react';
-import styles from './DarkModeContext.module.css';
 
 export const DarkModeContext = createContext();
 export const useDarkMode = () => useContext(DarkModeContext); // 사용하는 곳에서 불러오기만 하면 됨
